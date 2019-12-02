@@ -1,0 +1,111 @@
+@media screen and (max-width: 739px) {
+
+    header.page-header {
+        background: no-repeat left/cover url(../img/desert.jpg);
+        display: flex;
+        height: 125px;
+        min-width: 60px;
+        border-radius: 10px;
+        margin: 2%;
+    }
+    .page-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 100%;
+    }
+    #ham {
+        background-color: #ffbe45;
+        display: block;
+        float: right;
+        max-width: 70ex;
+        border-radius: 10px;
+    }
+    nav {
+        display: none;
+    }
+    p {
+        font-size: 80%;
+    }
+    #text {
+        background-color: #ffbe45;
+        padding: 1em;
+        margin: 2%;
+        width: 90%;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+    .firstBloc {
+        background-color: #ffbe45;
+        padding: 1.5em;
+        width: 75%;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+    .img {
+        width: 60%;
+        height: 40%;
+    }
+    .flex {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
+@media screen and (min-width: 739px) and (max-width: 1024px) {
+
+    header.page-header {
+        background: no-repeat left/cover url(../img/desert.jpg);
+        display: flex;
+        height: 165px;
+        min-width: 70px;
+        border-radius: 10px;
+        margin: 2%;
+    }
+    .page-header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 100%;
+    }
+    #ham {
+        display: block;
+        float: right;
+    }
+    nav {
+        display: none;
+    }
+    p {
+        font-size: 100%;
+    }
+    .firstBloc {
+        background-color: #ffbe45;
+        padding: 1.5em;
+        margin: 10px;
+        width: 70%;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+    #text {
+        background-color: #ffbe45;
+        padding: 1em;
+        margin: 5px;
+        width: 90%;
+        justify-content: space-between;
+        border-radius: 10px;
+    }
+    .img {
+        width: 70%;
+        height: 55%;
+    }
+    .flex {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

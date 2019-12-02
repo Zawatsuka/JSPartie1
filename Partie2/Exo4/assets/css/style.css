@@ -1,0 +1,74 @@
+html {
+    font-family: fantasy;
+    background-color: #e39b17;
+}
+
+header.page-header {
+    background: no-repeat left/cover url(../img/desert.jpg);
+    display: flex;
+    height: 350px;
+    min-width: 120px;
+    border-radius: 10px;
+}
+
+#ham {
+    display: none;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 200%;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+li {
+    list-style-type: none;
+    background-color: #ffbe45;
+    padding: 1em;
+    margin: 10px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.wordtitle {
+    text-decoration: underline;
+}
+
+#text {
+    background-color: #ffbe45;
+    padding: 1em;
+    margin: 10px;
+    width: 90%;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.flex {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+}
+.firstBloc {
+    background-color: #ffbe45;
+    padding: 1em;
+    margin: 10px;
+    width: 35%;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+.img {
+    width: 60%;
+    height: 45%;
+}
+p {
+    font-size: 85%;
+}
